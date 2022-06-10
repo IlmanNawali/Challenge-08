@@ -1,11 +1,3 @@
-const {
-  DB_USER = "hgqkizfmpgcnbq",
-  DB_PASSWORD = "0a362bdf5906ee4ba528a271979e36c44e6c647f13693a470ee49e128829dba1",
-  DB_NAME = "d6bh8j0a3c56vg",
-  DB_HOST = "ec2-3-226-163-72.compute-1.amazonaws.com",
-  DB_PORT = "5432",
-} = process.env;
-
 const DB_USER = prosecc.env.DB_USER || "hgqkizfmpgcnbq";
 const DB_PASSWORD = prosecc.env.DB_PASSWORD || "0a362bdf5906ee4ba528a271979e36c44e6c647f13693a470ee49e128829dba1";
 const DB_NAME = prosecc.env.DB_NAME || "d6bh8j0a3c56vg";

@@ -24,12 +24,13 @@ module.exports = {
     dialect: "postgres"
   },
   production: {
-    username: DB_USER,
-    password: DB_PASSWORD,
-    database: `${DB_NAME}_production`,
-    host: DB_HOST,
-    port: DB_PORT,
-    dialect: "postgres"
+    username: "hgqkizfmpgcnbq",
+    password: "0a362bdf5906ee4ba528a271979e36c44e6c647f13693a470ee49e128829dba1",
+    database: `d6bh8j0a3c56vg`,
+    host: "ec2-3-226-163-72.compute-1.amazonaws.com",
+    port: "5432",
+    dialect: "postgres",
   }
+
 
 }
